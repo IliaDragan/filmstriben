@@ -1,0 +1,28 @@
+{
+  "name": "filmstriben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IliaDragan/filmstriben.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IliaDragan/filmstriben/issues"
+  },
+  "homepage": "https://github.com/IliaDragan/filmstriben#readme",
+  "devDependencies": {
+    "express": "^4.12.4",
+    "mongodb": "^2.0.33",
+    "react": "^0.13.3"
+  }
+}
