@@ -1,0 +1,62 @@
+// Font
+//==========================================================================
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic);
+
+// Normalize
+//==========================================================================
+@import '../../bower_components/normalize-scss/normalize';
+
+// Configuration
+//==========================================================================
+@import 'configuration/variables';
+@import 'configuration/mixins';
+@import 'configuration/bem';
+
+// Mobile enhancements
+* {
+  // make transparent link selection, adjust last value opacity 0 to 1.0
+  -webkit-tap-highlight-color: rgba(#000, 0);
+}
+
+%body-mobile {
+  // prevent callout to copy image, etc when tap to hold
+  -webkit-touch-callout: none;
+
+  // prevent webkit from resizing text to fit
+  -webkit-text-size-adjust: none;
+
+  // prevent copy paste, to allow, change 'none' to 'text'
+  -webkit-user-select: none;
+}
+
+html,
+input,
+textarea,
+select,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Layout styles
+html {
+  height: 100%;
+}
+
+body {
+  @extend %body-mobile;
+  background-color: #26272e;
+  color: #a7abc2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

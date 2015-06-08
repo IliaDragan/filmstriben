@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jscs *.js src/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,22 @@
     "url": "https://github.com/IliaDragan/filmstriben/issues"
   },
   "homepage": "https://github.com/IliaDragan/filmstriben#readme",
-  "devDependencies": {
+  "dependencies": {
+    "ejs": "^2.3.1",
     "express": "^4.12.4",
     "mongodb": "^2.0.33",
     "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.12.4",
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-jscs": "^1.6.0",
+    "gulp-sass": "^2.0.1",
+    "path": "^0.11.14",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1"
   }
 }

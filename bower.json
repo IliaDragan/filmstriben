@@ -1,0 +1,22 @@
+{
+  "name": "filmstriben",
+  "version": "0.0.0",
+  "homepage": "https://github.com/IliaDragan/filmstriben",
+  "authors": [
+    "Andrei Bunulu <bunulu@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-scss": "3.x"
+  }
+}
